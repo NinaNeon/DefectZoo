@@ -1,1 +1,127 @@
-<!DOCTYPE html><html><head><title>DefectZoo</title></head><body><h1>Welcome to DefectZoo 🦓</h1></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="DefectZoo is a diverse industrial defect dataset designed for benchmarking classification, segmentation, and anomaly detection models across multiple domains.">
+  <meta property="og:title" content="DefectZoo: A Diverse Industrial Defect Dataset"/>
+  <meta property="og:description" content="Benchmark dataset for visual inspection tasks across textile, metal, PCB, and display industries."/>
+  <meta property="og:url" content="https://ninaneon.github.io/DefectZoo/"/>
+  <meta property="og:image" content="static/images/banner.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+  <meta name="twitter:title" content="DefectZoo: Industrial Defect Dataset">
+  <meta name="twitter:description" content="Visual inspection benchmark for multi-domain defects.">
+  <meta name="twitter:image" content="static/images/banner.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="keywords" content="Defect Detection, Industrial Vision, Dataset, Visual Inspection, Anomaly Segmentation">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>DefectZoo: A Diverse Industrial Defect Dataset</title>
+  <link rel="icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+
+<body>
+<section class="hero">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title is-1">DefectZoo</h1>
+      <h2 class="subtitle is-4">A Diverse Industrial Defect Dataset for Visual Inspection Benchmarking</h2>
+      <p>
+        <span><a href="#" target="_blank">Nina Ni</a></span>,
+        <span><a href="#" target="_blank">Co-author Name</a></span><br>
+        <span>Intelligent Systems Institute, NYCU</span><br>
+        <span>Presented at [Conference Name, Year]</span>
+      </p>
+      <div class="buttons is-centered mt-3">
+        <a class="button is-dark is-rounded" href="https://github.com/ninaneon/DefectZoo" target="_blank">
+          <span class="icon"><i class="fab fa-github"></i></span>
+          <span>Code</span>
+        </a>
+        <a class="button is-dark is-rounded" href="static/pdfs/defectzoo_paper.pdf" target="_blank">
+          <span class="icon"><i class="fas fa-file-pdf"></i></span>
+          <span>Paper</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Teaser -->
+<section class="hero is-light">
+  <div class="hero-body">
+    <div class="container">
+      <video autoplay muted loop controls style="max-width: 100%;">
+        <source src="static/videos/banner_video.mp4" type="video/mp4">
+      </video>
+      <p class="has-text-centered mt-3">A brief teaser showcasing sample defect images from various domains in DefectZoo.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Abstract -->
+<section class="section">
+  <div class="container content">
+    <h2 class="title is-3">Abstract</h2>
+    <p>
+      We introduce <strong>DefectZoo</strong>, a large-scale and diverse dataset of real-world industrial defects designed to support benchmarking of visual inspection models. The dataset spans multiple domains including textiles, metallic surfaces, printed circuit boards (PCBs), and soft displays. Each image is annotated with bounding boxes, segmentation masks, or image-level labels to support various learning paradigms including classification, object detection, and semantic segmentation. By consolidating heterogeneous sources and defect types into a single structured benchmark, DefectZoo enables systematic comparison of algorithmic generalization and cross-domain robustness.
+    </p>
+  </div>
+</section>
+
+<!-- Carousel -->
+<section class="section">
+  <div class="container">
+    <h2 class="title is-3 has-text-centered">Sample Images</h2>
+    <div id="results-carousel" class="carousel results-carousel">
+      <div class="item"><img src="static/images/carousel1.jpg" alt="Fabric defect"></div>
+      <div class="item"><img src="static/images/carousel2.jpg" alt="Metal crack"></div>
+      <div class="item"><img src="static/images/carousel3.jpg" alt="PCB misalignment"></div>
+    </div>
+  </div>
+</section>
+
+<!-- YouTube -->
+<section class="section is-light">
+  <div class="container">
+    <h2 class="title is-3 has-text-centered">Video Presentation</h2>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BibTeX -->
+<section class="section" id="BibTeX">
+  <div class="container content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@misc{defectzoo2025,
+  title={DefectZoo: A Diverse Industrial Defect Dataset},
+  author={Ni, Nina and Others},
+  year={2025},
+  howpublished={\url{https://ninaneon.github.io/DefectZoo}},
+}</code></pre>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      Built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
+    </p>
+  </div>
+</footer>
+</body>
+</html>
